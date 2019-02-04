@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="event_date">
+        <item>2019/01/01~2019/01/30</item>
+        <item>2019/02/01~2019/02/14</item>
+        <item>2019/03/01~2019/03/06</item>
+        <item>2019/04/015~2019/04/18</item>
+        <item>2019/05/05~2019/05/30</item>
+        <item>2019/10/01~2019/10/25</item>
+        <item>2019/11/11~2019/11/11</item>
+        <item>2019/01/01~2019/01/30</item>
+    </string-array>
+    <string-array name="event_content">
+        <item>2019台灣年味在審計新村</item>
+        <item>來MonnMonn市集找好物</item>
+        <item>飢餓遊戲</item>
+        <item>綜藝玩很大</item>
+        <item>一日系列之審計新村</item>
+        <item>文創市集</item>
+        <item>認識審計新村</item>
+        <item>發崛審計新村之美</item>
+        <item>2019台灣年味在審計新村</item>
+    </string-array>
+    <string name="m0704_t001">選擇:</string>
+    <string name="event_t001">說明</string>
+    <string name="event_t002">日期:</string>
+    <string name="event_t003">內容:</string>
+    <string name="event_content01">以「農曆年節」為主題,規劃年藝體驗活動。每週六、日下午,開放民眾體驗創意年菜。</string>
+    <string name="event_content02">「台北燈節」整體活動以傳承中華文化、融合創新藝術與科技,行銷台北觀光為主軸,結合台北市品牌特色及城市意象,
+    成為台北市城市觀光指標性活動。</string>
+    <string name="event_content03">3月</string>
+    <string name="event_content04">4月</string>
+    <string name="event_content05">5月</string>
+    <string name="event_content06">6月</string>
+    <string name="event_content07">7月</string>
+    <string name="event_content08">8月</string>
+    <string name="event_content09">9月</string>
+    <string name="event_content10">10月</string>
+
+
+
+</resources>

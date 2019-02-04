@@ -58,23 +58,24 @@ public class MainActivity extends AppCompatActivity {
 
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mAdapter);
+
 //---------監聽方法-------
-//        mAdapter.setOnItemClickListener(new ExampleAdapter.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(int position) {
-//                Intent i = new Intent();
-//
-//                i.setClass(MainActivity.this,News01.class);
-//                i.putExtra("date",date_Array[position]);//將日期欄位intent到new01
-//                startActivity(i);
-//                MainActivity.this.finish();
-//
-//                i.setClass(MainActivity.this,News01.class);
-//                i.putExtra("title",event_Array[position]);//
-//                startActivity(i);
-//                MainActivity.this.finish();
-//            }
-//        });
+        mAdapter.setOnItemClickListener(new ExampleAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(int position) {
+                Intent i = new Intent();
+
+                i.setClass(MainActivity.this,News01.class);
+                i.putExtra("date",date_Array[position]);//將日期欄位intent到new01
+                startActivity(i);
+                MainActivity.this.finish();
+
+                i.setClass(MainActivity.this,News01.class);
+                i.putExtra("title",event_Array[position]);//
+                startActivity(i);
+                MainActivity.this.finish();
+            }
+        });
 
         //-------取得螢幕解析度-------------
         int size = img.length; //找出需放幾張圖
@@ -96,4 +97,5 @@ public class MainActivity extends AppCompatActivity {
 //        }
 //        dots[0].setImageDrawable(ContextCompat.getDrawable(getApplicationContext(),R.drawable.show));//幻燈片相關
     }
+
 }
