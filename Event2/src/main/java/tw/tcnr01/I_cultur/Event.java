@@ -81,7 +81,7 @@ public class Event extends ListActivity implements NavigationView.OnNavigationIt
 
             item.put("imgView", img[i]);//(將每個圖都丟入
             item.put("txtView", listResource[i]);
-            item.put("txtView1", list1Resource[i]);//將超能力的文字丟入
+            item.put("txtView1", list1Resource[i]);//
             mList.add(item);
 
         }
